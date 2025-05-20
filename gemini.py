@@ -9,8 +9,8 @@ import os
 MODEL_PATH = "yolo11s-pose.pt" 
 
 # Video Paths
-INPUT_VIDEO_PATH = "input2.mp4"
-OUTPUT_VIDEO_PATH = "output_actions_yolo11_dynamic.mp4" 
+INPUT_VIDEO_PATH = "Input_Video/input2.mp4"
+OUTPUT_VIDEO_PATH = "Output_Video/output_actions_yolo11_dynamic.mp4" 
 
 # Fighter Identification & Tracking
 CONFIDENCE_THRESHOLD = 0.5 # Minimum detection confidence for YOLO
